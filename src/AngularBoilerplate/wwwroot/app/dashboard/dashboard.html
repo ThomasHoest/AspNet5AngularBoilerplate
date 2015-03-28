@@ -1,0 +1,39 @@
+﻿<section id="dashboard-view" class="mainbar" data-ng-controller="dashboard as vm">
+  <section class="matter">
+    <div class="container">
+      <h3>Status</h3>
+      <div>
+        <span>Crawling:</span>
+        <span>{{vm.status.crawling}}</span>
+      </div>
+      <div>
+        <span>Current Range:</span>
+        <span>{{vm.status.currentRange}}</span>
+      </div>
+      <div>
+        <span>UniqueCompanies:</span>
+        <span>{{vm.status.uniqueCompanies}}</span>
+      </div>
+      <div>
+        <span>IPs per second:</span>
+        <span>{{vm.status.ipsPerSecond}}</span>
+      </div>
+      <div>
+        <span>IPs crawled:</span>
+        <span>{{vm.status.ipsCrawled}}</span>
+      </div>
+      <div>
+        <span>Matcher running:</span>
+        <span>{{vm.status.runMatcher}}</span>
+      </div>
+      <div>
+        <span>Crawler running:</span>
+        <span>{{vm.status.runCrawler}}</span>
+      </div>
+      <div>
+        <span>Crawling:</span>
+        <span>{{vm.status.crawling}}</span>
+      </div>
+    </div>
+  </section>
+</section>
